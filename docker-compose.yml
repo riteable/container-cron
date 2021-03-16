@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  container-cron:
+    image: container-cron:latest
+    build: .
+    working_dir: /home/node/app
+    environment:
+      NODE_ENV: production
+    volumes:
+      - ./config.json:/opt/container-cron/config.json
+      - /var/run/docker.sock:/var/run/docker.sock:ro
