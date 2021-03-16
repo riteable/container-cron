@@ -8,7 +8,7 @@ While in Docker Swarm mode, you will probably have multiple instances of a conta
 
 ## Config
 
-An exmple config will look like the following:
+An example configuration will look like the following:
 
 ```json
 [
