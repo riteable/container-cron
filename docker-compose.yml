@@ -2,7 +2,7 @@ version: "2"
 
 services:
   container-cron:
-    image: container-cron:latest
+    image: riteable/container-cron:latest
     build: .
     working_dir: /home/node/app
     environment:
